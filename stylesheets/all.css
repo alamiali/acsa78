@@ -9088,17 +9088,35 @@ h1 {
     color: #777777;
     border-color: #777777; }
 
-/* line 1, C:/Users/ali.alami/Documents/LeWagonWebDesign/lewagon-sample-project/source/stylesheets/components/_card.css.scss */
-.card {
+/* line 2, C:/Users/ali.alami/Documents/LeWagonWebDesign/lewagon-sample-project/source/stylesheets/components/_card.css.scss */
+#prestations .card {
   background-color: transparent;
   border-radius: 5px;
   padding: 20px;
   margin-bottom: 10px;
   text-align: center;
+  border-color: white;
+  border-style: solid;
+  border-weight: 1px;
   color: white; }
-  /* line 12, C:/Users/ali.alami/Documents/LeWagonWebDesign/lewagon-sample-project/source/stylesheets/components/_card.css.scss */
-  .card img {
+  /* line 14, C:/Users/ali.alami/Documents/LeWagonWebDesign/lewagon-sample-project/source/stylesheets/components/_card.css.scss */
+  #prestations .card img {
     width: 100px; }
+
+/* line 23, C:/Users/ali.alami/Documents/LeWagonWebDesign/lewagon-sample-project/source/stylesheets/components/_card.css.scss */
+#contact .card {
+  background-color: transparent;
+  border-radius: 5px;
+  padding: 20px;
+  margin-bottom: 10px;
+  text-align: center;
+  color: #555555; }
+  /* line 32, C:/Users/ali.alami/Documents/LeWagonWebDesign/lewagon-sample-project/source/stylesheets/components/_card.css.scss */
+  #contact .card img {
+    width: 100px; }
+  /* line 36, C:/Users/ali.alami/Documents/LeWagonWebDesign/lewagon-sample-project/source/stylesheets/components/_card.css.scss */
+  #contact .card a:hover {
+    color: #EE5F5B; }
 
 /* line 1, C:/Users/ali.alami/Documents/LeWagonWebDesign/lewagon-sample-project/source/stylesheets/pages/_home.css.scss */
 #banner {
@@ -9142,7 +9160,15 @@ h1 {
 /* line 43, C:/Users/ali.alami/Documents/LeWagonWebDesign/lewagon-sample-project/source/stylesheets/pages/_home.css.scss */
 #prestations {
   /*background-image: image-url("verysmalldamiernoir.png");*/
-  background-color: #A3161B; }
+  background-color: rgba(163, 22, 27, 0.8); }
+
+/* line 50, C:/Users/ali.alami/Documents/LeWagonWebDesign/lewagon-sample-project/source/stylesheets/pages/_home.css.scss */
+#contact a {
+  text-decoration: none;
+  color: #555555; }
+/* line 54, C:/Users/ali.alami/Documents/LeWagonWebDesign/lewagon-sample-project/source/stylesheets/pages/_home.css.scss */
+#contact i {
+  font-size: 50px; }
 
 /*
 ==============================================
