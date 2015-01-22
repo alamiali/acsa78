@@ -9101,14 +9101,9 @@ h1 {
     width: 100px; }
   /* line 16, C:/Users/ali.alami/Documents/LeWagonWebDesign/lewagon-sample-project/source/stylesheets/components/_card.css.scss */
   #prestations .card h2 {
-    border-style: solid;
-    border-color: white;
-    border-radius: 30px;
-    border-width: 2px;
-    letter-spacing: 1px;
-    padding: 5px; }
+    letter-spacing: 2px; }
 
-/* line 30, C:/Users/ali.alami/Documents/LeWagonWebDesign/lewagon-sample-project/source/stylesheets/components/_card.css.scss */
+/* line 26, C:/Users/ali.alami/Documents/LeWagonWebDesign/lewagon-sample-project/source/stylesheets/components/_card.css.scss */
 #contact .card {
   background-color: transparent;
   border-radius: 5px;
@@ -9116,13 +9111,13 @@ h1 {
   margin-bottom: 10px;
   text-align: center;
   color: #555555; }
-  /* line 39, C:/Users/ali.alami/Documents/LeWagonWebDesign/lewagon-sample-project/source/stylesheets/components/_card.css.scss */
+  /* line 35, C:/Users/ali.alami/Documents/LeWagonWebDesign/lewagon-sample-project/source/stylesheets/components/_card.css.scss */
   #contact .card a {
     transition: color 0.3s ease; }
-    /* line 41, C:/Users/ali.alami/Documents/LeWagonWebDesign/lewagon-sample-project/source/stylesheets/components/_card.css.scss */
+    /* line 37, C:/Users/ali.alami/Documents/LeWagonWebDesign/lewagon-sample-project/source/stylesheets/components/_card.css.scss */
     #contact .card a:hover {
       color: #EE5F5B; }
-  /* line 46, C:/Users/ali.alami/Documents/LeWagonWebDesign/lewagon-sample-project/source/stylesheets/components/_card.css.scss */
+  /* line 42, C:/Users/ali.alami/Documents/LeWagonWebDesign/lewagon-sample-project/source/stylesheets/components/_card.css.scss */
   #contact .card img {
     width: 100px; }
 
@@ -9133,48 +9128,55 @@ h1 {
   background-size: cover;
   background-position: center center;
   color: white;
-  height: 400px;
-  min-height: 400px;
-  text-align: center; }
+  height: 600px;
+  min-height: 600px;
+  text-align: center;
+  padding-top: 200px; }
 
-/* line 12, C:/Users/ali.alami/Documents/LeWagonWebDesign/lewagon-sample-project/source/stylesheets/pages/_home.css.scss */
+/* line 13, C:/Users/ali.alami/Documents/LeWagonWebDesign/lewagon-sample-project/source/stylesheets/pages/_home.css.scss */
 #logo {
   width: 100px;
   box-shadow: 1px 1px 12px white; }
 
 @media (max-width: 770px) {
-  /* line 18, C:/Users/ali.alami/Documents/LeWagonWebDesign/lewagon-sample-project/source/stylesheets/pages/_home.css.scss */
+  /* line 19, C:/Users/ali.alami/Documents/LeWagonWebDesign/lewagon-sample-project/source/stylesheets/pages/_home.css.scss */
   h3 {
     font-size: 18px; }
 
-  /* line 22, C:/Users/ali.alami/Documents/LeWagonWebDesign/lewagon-sample-project/source/stylesheets/pages/_home.css.scss */
+  /* line 23, C:/Users/ali.alami/Documents/LeWagonWebDesign/lewagon-sample-project/source/stylesheets/pages/_home.css.scss */
   h2 {
     font-size: 22px; }
 
-  /* line 26, C:/Users/ali.alami/Documents/LeWagonWebDesign/lewagon-sample-project/source/stylesheets/pages/_home.css.scss */
+  /* line 27, C:/Users/ali.alami/Documents/LeWagonWebDesign/lewagon-sample-project/source/stylesheets/pages/_home.css.scss */
   h1 {
     font-size: 30px; }
 
-  /* line 30, C:/Users/ali.alami/Documents/LeWagonWebDesign/lewagon-sample-project/source/stylesheets/pages/_home.css.scss */
+  /* line 31, C:/Users/ali.alami/Documents/LeWagonWebDesign/lewagon-sample-project/source/stylesheets/pages/_home.css.scss */
   #prestations .card img {
-    width: 60px; } }
-/* line 36, C:/Users/ali.alami/Documents/LeWagonWebDesign/lewagon-sample-project/source/stylesheets/pages/_home.css.scss */
+    width: 60px; }
+
+  /* line 35, C:/Users/ali.alami/Documents/LeWagonWebDesign/lewagon-sample-project/source/stylesheets/pages/_home.css.scss */
+  #banner {
+    height: 400px;
+    min-height: 400px;
+    padding-top: 50px; } }
+/* line 43, C:/Users/ali.alami/Documents/LeWagonWebDesign/lewagon-sample-project/source/stylesheets/pages/_home.css.scss */
 #historique {
   background-image: url("../images/EquipeWR.jpg");
   color: white;
   font-weight: 400;
   background-size: cover; }
 
-/* line 43, C:/Users/ali.alami/Documents/LeWagonWebDesign/lewagon-sample-project/source/stylesheets/pages/_home.css.scss */
+/* line 50, C:/Users/ali.alami/Documents/LeWagonWebDesign/lewagon-sample-project/source/stylesheets/pages/_home.css.scss */
 #prestations {
   /*background-image: image-url("verysmalldamiernoir.png");*/
   background-color: rgba(163, 22, 27, 0.8); }
 
-/* line 50, C:/Users/ali.alami/Documents/LeWagonWebDesign/lewagon-sample-project/source/stylesheets/pages/_home.css.scss */
+/* line 57, C:/Users/ali.alami/Documents/LeWagonWebDesign/lewagon-sample-project/source/stylesheets/pages/_home.css.scss */
 #contact a {
   text-decoration: none;
   color: #555555; }
-/* line 54, C:/Users/ali.alami/Documents/LeWagonWebDesign/lewagon-sample-project/source/stylesheets/pages/_home.css.scss */
+/* line 61, C:/Users/ali.alami/Documents/LeWagonWebDesign/lewagon-sample-project/source/stylesheets/pages/_home.css.scss */
 #contact i {
   font-size: 50px; }
 
