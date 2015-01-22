@@ -9095,15 +9095,20 @@ h1 {
   padding: 20px;
   margin-bottom: 10px;
   text-align: center;
-  border-color: white;
-  border-style: solid;
-  border-weight: 1px;
   color: white; }
-  /* line 14, C:/Users/ali.alami/Documents/LeWagonWebDesign/lewagon-sample-project/source/stylesheets/components/_card.css.scss */
+  /* line 11, C:/Users/ali.alami/Documents/LeWagonWebDesign/lewagon-sample-project/source/stylesheets/components/_card.css.scss */
   #prestations .card img {
     width: 100px; }
+  /* line 16, C:/Users/ali.alami/Documents/LeWagonWebDesign/lewagon-sample-project/source/stylesheets/components/_card.css.scss */
+  #prestations .card h2 {
+    border-style: solid;
+    border-color: white;
+    border-radius: 30px;
+    border-width: 2px;
+    letter-spacing: 1px;
+    padding: 5px; }
 
-/* line 23, C:/Users/ali.alami/Documents/LeWagonWebDesign/lewagon-sample-project/source/stylesheets/components/_card.css.scss */
+/* line 30, C:/Users/ali.alami/Documents/LeWagonWebDesign/lewagon-sample-project/source/stylesheets/components/_card.css.scss */
 #contact .card {
   background-color: transparent;
   border-radius: 5px;
@@ -9111,12 +9116,15 @@ h1 {
   margin-bottom: 10px;
   text-align: center;
   color: #555555; }
-  /* line 32, C:/Users/ali.alami/Documents/LeWagonWebDesign/lewagon-sample-project/source/stylesheets/components/_card.css.scss */
+  /* line 39, C:/Users/ali.alami/Documents/LeWagonWebDesign/lewagon-sample-project/source/stylesheets/components/_card.css.scss */
+  #contact .card a {
+    transition: color 0.3s ease; }
+    /* line 41, C:/Users/ali.alami/Documents/LeWagonWebDesign/lewagon-sample-project/source/stylesheets/components/_card.css.scss */
+    #contact .card a:hover {
+      color: #EE5F5B; }
+  /* line 46, C:/Users/ali.alami/Documents/LeWagonWebDesign/lewagon-sample-project/source/stylesheets/components/_card.css.scss */
   #contact .card img {
     width: 100px; }
-  /* line 36, C:/Users/ali.alami/Documents/LeWagonWebDesign/lewagon-sample-project/source/stylesheets/components/_card.css.scss */
-  #contact .card a:hover {
-    color: #EE5F5B; }
 
 /* line 1, C:/Users/ali.alami/Documents/LeWagonWebDesign/lewagon-sample-project/source/stylesheets/pages/_home.css.scss */
 #banner {
@@ -9148,7 +9156,7 @@ h1 {
     font-size: 30px; }
 
   /* line 30, C:/Users/ali.alami/Documents/LeWagonWebDesign/lewagon-sample-project/source/stylesheets/pages/_home.css.scss */
-  #prestations img {
+  #prestations .card img {
     width: 60px; } }
 /* line 36, C:/Users/ali.alami/Documents/LeWagonWebDesign/lewagon-sample-project/source/stylesheets/pages/_home.css.scss */
 #historique {
