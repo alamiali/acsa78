@@ -1161,7 +1161,7 @@ body {
   font-size: 16px;
   line-height: 1.4;
   color: #333333;
-  background-color: #eeeeee; }
+  background-color: #fafafa; }
 
 /* line 36, C:/Ruby21-x64/lib/ruby/gems/2.1.0/gems/bootstrap-sass-3.3.1.0/assets/stylesheets/bootstrap/_scaffolding.scss */
 input,
@@ -1208,7 +1208,7 @@ img {
 .img-thumbnail {
   padding: 4px;
   line-height: 1.4;
-  background-color: #eeeeee;
+  background-color: #fafafa;
   border: 1px solid #ddd;
   border-radius: 2px;
   -webkit-transition: all 0.2s ease-in-out;
@@ -2617,7 +2617,7 @@ th {
     border-top: 2px solid #ddd; }
   /* line 62, C:/Ruby21-x64/lib/ruby/gems/2.1.0/gems/bootstrap-sass-3.3.1.0/assets/stylesheets/bootstrap/_tables.scss */
   .table .table {
-    background-color: #eeeeee; }
+    background-color: #fafafa; }
 
 /* line 75, C:/Ruby21-x64/lib/ruby/gems/2.1.0/gems/bootstrap-sass-3.3.1.0/assets/stylesheets/bootstrap/_tables.scss */
 .table-condensed > thead > tr > th,
@@ -4132,7 +4132,7 @@ tbody.collapse.in {
     /* line 96, C:/Ruby21-x64/lib/ruby/gems/2.1.0/gems/bootstrap-sass-3.3.1.0/assets/stylesheets/bootstrap/_navs.scss */
     .nav-tabs > li.active > a, .nav-tabs > li.active > a:hover, .nav-tabs > li.active > a:focus {
       color: #555555;
-      background-color: #eeeeee;
+      background-color: #fafafa;
       border: 1px solid #ddd;
       border-bottom-color: transparent;
       cursor: default; }
@@ -4207,7 +4207,7 @@ tbody.collapse.in {
     .nav-tabs.nav-justified > .active > a:hover,
     .nav-tabs-justified > .active > a:focus,
     .nav-tabs.nav-justified > .active > a:focus {
-      border-bottom-color: #eeeeee; } }
+      border-bottom-color: #fafafa; } }
 
 /* line 224, C:/Ruby21-x64/lib/ruby/gems/2.1.0/gems/bootstrap-sass-3.3.1.0/assets/stylesheets/bootstrap/_navs.scss */
 .tab-content > .tab-pane {
@@ -5044,7 +5044,7 @@ a.badge:hover, a.badge:focus {
   padding: 4px;
   margin-bottom: 22px;
   line-height: 1.4;
-  background-color: #eeeeee;
+  background-color: #fafafa;
   border: 1px solid #ddd;
   border-radius: 2px;
   -webkit-transition: border 0.2s ease-in-out;
@@ -9106,18 +9106,19 @@ h1 {
 /* line 26, C:/Users/ali.alami/Documents/LeWagonWebDesign/lewagon-sample-project/source/stylesheets/components/_card.css.scss */
 #contact .card {
   background-color: transparent;
+  font-weight: 700;
   border-radius: 5px;
   padding: 20px;
   margin-bottom: 10px;
   text-align: center;
   color: #555555; }
-  /* line 35, C:/Users/ali.alami/Documents/LeWagonWebDesign/lewagon-sample-project/source/stylesheets/components/_card.css.scss */
+  /* line 36, C:/Users/ali.alami/Documents/LeWagonWebDesign/lewagon-sample-project/source/stylesheets/components/_card.css.scss */
   #contact .card a {
     transition: color 0.3s ease; }
-    /* line 37, C:/Users/ali.alami/Documents/LeWagonWebDesign/lewagon-sample-project/source/stylesheets/components/_card.css.scss */
+    /* line 38, C:/Users/ali.alami/Documents/LeWagonWebDesign/lewagon-sample-project/source/stylesheets/components/_card.css.scss */
     #contact .card a:hover {
       color: #EE5F5B; }
-  /* line 42, C:/Users/ali.alami/Documents/LeWagonWebDesign/lewagon-sample-project/source/stylesheets/components/_card.css.scss */
+  /* line 43, C:/Users/ali.alami/Documents/LeWagonWebDesign/lewagon-sample-project/source/stylesheets/components/_card.css.scss */
   #contact .card img {
     width: 100px; }
 
@@ -9138,48 +9139,61 @@ h1 {
   width: 100px;
   box-shadow: 1px 1px 12px white; }
 
-@media (max-width: 770px) {
-  /* line 19, C:/Users/ali.alami/Documents/LeWagonWebDesign/lewagon-sample-project/source/stylesheets/pages/_home.css.scss */
-  h3 {
-    font-size: 18px; }
-
-  /* line 23, C:/Users/ali.alami/Documents/LeWagonWebDesign/lewagon-sample-project/source/stylesheets/pages/_home.css.scss */
-  h2 {
-    font-size: 22px; }
-
-  /* line 27, C:/Users/ali.alami/Documents/LeWagonWebDesign/lewagon-sample-project/source/stylesheets/pages/_home.css.scss */
-  h1 {
-    font-size: 30px; }
-
-  /* line 31, C:/Users/ali.alami/Documents/LeWagonWebDesign/lewagon-sample-project/source/stylesheets/pages/_home.css.scss */
-  #prestations .card img {
-    width: 60px; }
-
-  /* line 35, C:/Users/ali.alami/Documents/LeWagonWebDesign/lewagon-sample-project/source/stylesheets/pages/_home.css.scss */
-  #banner {
-    height: 400px;
-    min-height: 400px;
-    padding-top: 50px; } }
-/* line 43, C:/Users/ali.alami/Documents/LeWagonWebDesign/lewagon-sample-project/source/stylesheets/pages/_home.css.scss */
+/* line 18, C:/Users/ali.alami/Documents/LeWagonWebDesign/lewagon-sample-project/source/stylesheets/pages/_home.css.scss */
 #historique {
   background-image: url("../images/EquipeWR.jpg");
   color: white;
   font-weight: 400;
   background-size: cover; }
 
-/* line 50, C:/Users/ali.alami/Documents/LeWagonWebDesign/lewagon-sample-project/source/stylesheets/pages/_home.css.scss */
+/* line 25, C:/Users/ali.alami/Documents/LeWagonWebDesign/lewagon-sample-project/source/stylesheets/pages/_home.css.scss */
 #prestations {
-  /*background-image: image-url("verysmalldamiernoir.png");*/
-  background-color: rgba(163, 22, 27, 0.8); }
+  background-color: rgba(50, 50, 50, 0.7);
+  background-size: cover;
+  background-position: center center; }
 
-/* line 57, C:/Users/ali.alami/Documents/LeWagonWebDesign/lewagon-sample-project/source/stylesheets/pages/_home.css.scss */
+/* line 36, C:/Users/ali.alami/Documents/LeWagonWebDesign/lewagon-sample-project/source/stylesheets/pages/_home.css.scss */
 #contact a {
   text-decoration: none;
   color: #555555; }
-/* line 61, C:/Users/ali.alami/Documents/LeWagonWebDesign/lewagon-sample-project/source/stylesheets/pages/_home.css.scss */
+/* line 40, C:/Users/ali.alami/Documents/LeWagonWebDesign/lewagon-sample-project/source/stylesheets/pages/_home.css.scss */
 #contact i {
   font-size: 50px; }
+/* line 44, C:/Users/ali.alami/Documents/LeWagonWebDesign/lewagon-sample-project/source/stylesheets/pages/_home.css.scss */
+#contact h2 {
+  padding-bottom: 100px; }
 
+/* line 49, C:/Users/ali.alami/Documents/LeWagonWebDesign/lewagon-sample-project/source/stylesheets/pages/_home.css.scss */
+#footer .container a {
+  text-decoration: none;
+  color: #EE5F5B; }
+
+@media (max-width: 770px) {
+  /* line 56, C:/Users/ali.alami/Documents/LeWagonWebDesign/lewagon-sample-project/source/stylesheets/pages/_home.css.scss */
+  h3 {
+    font-size: 18px; }
+
+  /* line 60, C:/Users/ali.alami/Documents/LeWagonWebDesign/lewagon-sample-project/source/stylesheets/pages/_home.css.scss */
+  #contact h2 {
+    padding-bottom: 10px; }
+
+  /* line 64, C:/Users/ali.alami/Documents/LeWagonWebDesign/lewagon-sample-project/source/stylesheets/pages/_home.css.scss */
+  h2 {
+    font-size: 22px; }
+
+  /* line 68, C:/Users/ali.alami/Documents/LeWagonWebDesign/lewagon-sample-project/source/stylesheets/pages/_home.css.scss */
+  h1 {
+    font-size: 30px; }
+
+  /* line 72, C:/Users/ali.alami/Documents/LeWagonWebDesign/lewagon-sample-project/source/stylesheets/pages/_home.css.scss */
+  #prestations .card img {
+    width: 70px; }
+
+  /* line 76, C:/Users/ali.alami/Documents/LeWagonWebDesign/lewagon-sample-project/source/stylesheets/pages/_home.css.scss */
+  #banner {
+    height: 400px;
+    min-height: 400px;
+    padding-top: 50px; } }
 /*
 ==============================================
 CSS3 ANIMATION CHEAT SHEET
