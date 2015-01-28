@@ -69,10 +69,15 @@
         js.src = "http://connect.facebook.net/fr_FR/sdk.js#xfbml=1&version=v2.0";
         fjs.parentNode.insertBefore(js, fjs);
       }(document, 'script', 'facebook-jssdk'));</script>
+      <script>
+
+        window.sr = new scrollReveal();
+
+      </script>
 
     <div id="banner">
       <br><br>
-      <img id="logo" src="images/logoACSA78carre.jpg" />
+      <img id="logo" class="fadeInHome" src="images/logoACSA78carre.jpg" />
       <br>
       <h1>Atelier Classique Sport Auto 78</h1>
       <h2>Garage indépendant spécialiste Lotus, Caterham, et classiques</h2>
@@ -185,8 +190,8 @@
       </script>-->
 
       <!-- enlever "style" si besoin de retrouver les clicks et scroll-->
-      <iframe style="pointer-events:none" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d2616.9755040375185!2d2.0845400000000005!3d49.011050999999995!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e68ac7b65b6a79%3A0x83b9a318868f14f2!2sACSA78+-+Atelier+Classique+Sport+Auto!5e0!3m2!1sfr!2sfr!4v1421932462770" width="100%" height="300" frameborder="0" style="border:0"></iframe>
-
+<a href="https://www.google.fr/maps/place/ACSA78+-+Atelier+Classique+Sport+Auto/@49.011051,2.08454,17z/data=!3m1!4b1!4m2!3m1!1s0x47e68ac7b65b6a79:0x83b9a318868f14f2">        <iframe style="pointer-events:none" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d2616.9755040375185!2d2.0845400000000005!3d49.011050999999995!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e68ac7b65b6a79%3A0x83b9a318868f14f2!2sACSA78+-+Atelier+Classique+Sport+Auto!5e0!3m2!1sfr!2sfr!4v1421932462770" width="100%" height="300" frameborder="0" style="border:0"></iframe>
+</a>
 
     </div>
 
@@ -226,6 +231,21 @@
     </div>
 
 
+<script>
+  var logoNavbar = $('.navbar-brand')
+  var total =  $('#logo').offset().top + $('#logo').height()
+
+  logoNavbar.hide()
+
+  $(window).scroll(function(){
+    var scrollPosition = $(window).scrollTop()
+    if (scrollPosition > total ){
+      logoNavbar.show("fast","linear")
+    } else {
+      logoNavbar.hide("fast","linear")
+    }
+  })
+</script>
 
 
 

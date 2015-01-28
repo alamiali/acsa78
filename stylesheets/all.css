@@ -8898,6 +8898,32 @@ button.close {
 .fa-meanpath:before {
   content: ""; }
 
+@keyframes fadeInHome {
+  0% {
+    top: -30px; }
+  100% {
+    opacity: 1;
+    top: 0px; } }
+@-webkit-keyframes fadeInHome {
+  0% {
+    top: -30px; }
+  100% {
+    opacity: 1;
+    top: 0px; } }
+@-moz-keyframes fadeInHome {
+  0% {
+    top: -30px; }
+  100% {
+    opacity: 1;
+    top: 0px; } }
+/* line 40, C:/Users/ali.alami/Documents/LeWagonWebDesign/lewagon-sample-project/source/stylesheets/layout/_animation.css.scss */
+.fadeInHome {
+  position: relative;
+  top: -30px;
+  animation: fadeInHome 0.5s 0.5s ease forwards;
+  -webkit-animation: fadeInHome 0.5s 0.5s ease forwards;
+  -moz-animation: fadeInHome 0.5s 0.5s ease forwards; }
+
 /* -------------------------------------
  * Base elements style (h1, h2, p, a, ul..)
  * ------------------------------------- */
@@ -9002,7 +9028,6 @@ h1 {
   .navbar-wagon .navbar-brand img, .navbar-wagon .navbar-brand svg, .navbar-wagon .navbar-brand object {
     height: 50px;
     padding: 0px;
-    border: 3px solid white;
     box-shadow: 1px 1px 12px #646464; }
   /* line 99, C:/Users/ali.alami/Documents/LeWagonWebDesign/lewagon-sample-project/source/stylesheets/layout/_navbar.css.scss */
   .navbar-wagon .img-avatar {
@@ -9112,13 +9137,13 @@ h1 {
   margin-bottom: 10px;
   text-align: center;
   color: #555555; }
-  /* line 36, C:/Users/ali.alami/Documents/LeWagonWebDesign/lewagon-sample-project/source/stylesheets/components/_card.css.scss */
+  /* line 37, C:/Users/ali.alami/Documents/LeWagonWebDesign/lewagon-sample-project/source/stylesheets/components/_card.css.scss */
   #contact .card a {
     transition: color 0.3s ease; }
-    /* line 38, C:/Users/ali.alami/Documents/LeWagonWebDesign/lewagon-sample-project/source/stylesheets/components/_card.css.scss */
+    /* line 39, C:/Users/ali.alami/Documents/LeWagonWebDesign/lewagon-sample-project/source/stylesheets/components/_card.css.scss */
     #contact .card a:hover {
       color: #EE5F5B; }
-  /* line 43, C:/Users/ali.alami/Documents/LeWagonWebDesign/lewagon-sample-project/source/stylesheets/components/_card.css.scss */
+  /* line 44, C:/Users/ali.alami/Documents/LeWagonWebDesign/lewagon-sample-project/source/stylesheets/components/_card.css.scss */
   #contact .card img {
     width: 100px; }
 
@@ -9700,23 +9725,23 @@ pulse
 @keyframes pulse {
   0% {
     transform: scale(0.9);
-    opacity: 0.4; }
+    opacity: 0.8; }
   50% {
     transform: scale(1.1);
     opacity: 1; }
   100% {
     transform: scale(0.9);
-    opacity: 0.4; } }
+    opacity: 0.8; } }
 @-webkit-keyframes pulse {
   0% {
     -webkit-transform: scale(0.95);
-    opacity: 0.4; }
+    opacity: 0.8; }
   50% {
     -webkit-transform: scale(1.1);
     opacity: 1; }
   100% {
     -webkit-transform: scale(0.95);
-    opacity: 0.4; } }
+    opacity: 0.8; } }
 /*
 ==============================================
 floating
